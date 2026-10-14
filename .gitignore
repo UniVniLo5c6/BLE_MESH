@@ -1,0 +1,54 @@
+# ESP-IDF build output
+**/build/
+
+# Local configuration
+**/sdkconfig
+**/sdkconfig.old
+
+# IDE settings
+**/.vscode/
+**/.idea/
+
+# Generated dependencies (only if reproducible from manifests)
+**/managed_components/
+
+# Compiled files
+**/*.o
+**/*.a
+**/*.elf
+**/*.map
+**/*.bin
+**/*.hex
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Logs and crash dumps
+**/*.log
+**/core
+**/core.*
+
+# Secrets and private keys
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/.env
+**/secrets/
+# ESP-IDF local build configuration
+**/sdkconfig
+**/sdkconfig.old
+**/build/
+
+# Generated dependencies
+**/managed_components/
+
+# IDE settings
+**/.vscode/
+**/.idea/
