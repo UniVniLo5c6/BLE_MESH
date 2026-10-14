@@ -52,3 +52,10 @@
 # IDE settings
 **/.vscode/
 **/.idea/
+# Local credentials
+secrets.h
+**/secrets.h
+
+# MQTT CA certificate
+ca.pem
+**/ca.pem
