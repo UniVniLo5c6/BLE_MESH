@@ -501,21 +501,6 @@ static void example_ble_mesh_custom_model_cb(esp_ble_mesh_model_cb_event_t event
         break;
     }
 
-/*    uint8_t status[2];
-
-    status[0] = msg->cmd;
-    status[1] = 0xAA;
-
-    esp_err_t err = esp_ble_mesh_server_model_send_msg(
-            &vnd_models[0],
-            param->model_operation.ctx,
-            ESP_BLE_MESH_VND_MODEL_OP_STATUS,
-            sizeof(status),
-            status);
-
-    if (err) {
-        ESP_LOGE(TAG, "Failed to send STATUS");
-    }*/
 }
         break;
     case ESP_BLE_MESH_MODEL_SEND_COMP_EVT:
