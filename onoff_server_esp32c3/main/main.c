@@ -284,7 +284,6 @@ static void example_ble_mesh_config_server_cb(esp_ble_mesh_cfg_server_cb_event_t
             ESP_LOGI(TAG, "net_idx 0x%04x, app_idx 0x%04x",
                 param->value.state_change.appkey_add.net_idx,
                 param->value.state_change.appkey_add.app_idx);
-            ESP_LOG_BUFFER_HEX("AppKey", param->value.state_change.appkey_add.app_key, 16);
               ///  g_net_idx = param->value.state_change.appkey_add.net_idx;   ///
               ///  g_app_idx = param->value.state_change.appkey_add.app_idx;   ///
               ///  ESP_LOGI(TAG, "Saved net_idx=0x%04x app_idx=0x%04x", g_net_idx, g_app_idx); ///
